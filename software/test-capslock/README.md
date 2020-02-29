@@ -6,13 +6,13 @@ This is based on [tomu-capslock](https://github.com/der-b/tomu-capslock)
 
 ## Compile
 
-`` bash
+``` bash
 TARGETS=stm32/f0 make -C libopencm3
 make
-``
+```
 
 ## download to board
 
-`` bash
+``` bash
 make download
-``
+```
