@@ -13,9 +13,8 @@
 
 #define AHB_FREQUENCY 14000000
 
-// from the tomu project
-#define VENDOR_ID                 0x1209    /* pid.code */
-#define PRODUCT_ID                0x70b1    /* Assigned to Tomu project */
+#define VENDOR_ID                 0x1209    /* see: http://pid.codes/ */
+#define PRODUCT_ID                0x0001    /* test product id: http://pid.codes/1209/0001/ */
 #define DEVICE_VER                0x0100    /* Program version */
 
 /* Reference [1]: USB 3.2 Revision 1.0 */
